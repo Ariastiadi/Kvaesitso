@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usearch_app_name" translatable="false">u search</string>
+    <color name="ic_usearch_background">#C8B4B5</color>
+</resources>
