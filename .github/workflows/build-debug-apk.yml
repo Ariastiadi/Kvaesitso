@@ -1,15 +1,13 @@
-name: Build Debug APK (manual)
+name: Build Debug APK
 
-# Manually triggered build that produces an installable, unsigned-for-testing
-# debug APK - no signing secrets required. Use this after making changes
-# (like the search widget) to get a file you can sideload onto a phone.
-#
-# To run it: open this repo on GitHub -> "Actions" tab -> "Build Debug APK
-# (manual)" in the left sidebar -> "Run workflow" button.
-# When it finishes, open the run and download the "kvaesitso-debug-apk" file
+# Builds a test APK automatically every time something is committed to
+# the main branch (it can also be started by hand from the Actions tab).
+# When the run turns green, open it and download "kvaesitso-debug-apk"
 # under "Artifacts".
 
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
