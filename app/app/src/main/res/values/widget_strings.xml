@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_widget_label">Search</string>
+    <string name="search_widget_description">A small search bar. Tap it to open Kvaesitso\'s search, right on top of your current home screen.</string>
+</resources>
